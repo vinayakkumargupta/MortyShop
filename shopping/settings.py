@@ -126,3 +126,8 @@ STATIC_ROOT = BASE_DIR /'static'
 STATICFILES_DIRS = [
     'shopping/static',
  ]
+
+#media files configuration
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR /'media'
